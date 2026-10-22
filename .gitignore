@@ -1,0 +1,47 @@
+# ============================================================
+# Lottery Prediction System - .gitignore
+# ============================================================
+
+# --- Database files ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- HTML dump files (debug/probe artifacts) ---
+*.html
+cart_modal_dump.html
+detail_probe.html
+nlb_probe.html
+winway_dom_dump.html
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Environment & secrets ---
+.env
+.env.*
+*.key
+
+# --- OS files ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+*.log
+
+# --- Data directory (raw scraped data) ---
+data/
+
+# --- Misc ---
+150
